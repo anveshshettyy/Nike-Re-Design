@@ -1,0 +1,532 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gilroy';
+    overflow: hidden;
+}
+*::selection{
+    color: white;
+    background-color: black;
+}
+html,body {
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff;
+}
+.nav {
+    
+    height: 80px;
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    
+    height: 80px;
+    width: 70px;
+    margin-left: 30px;
+    background-color: red;
+}
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-left: 70%;
+    
+}
+.links a{
+    color: black;
+    font-size: 18px;
+    font-weight: 200;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.page1 {
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    
+}
+.page1 h1{
+    font-size: 36vh;
+    text-transform: uppercase;
+    font-family: futura;
+    line-height: 35vh;
+    letter-spacing: -15px;
+}
+#video-container {
+    height: 100vh;
+    width: 100%;
+    background-color: grey;
+    margin-top: 1vw;
+    position:relative; 
+}
+#video-container video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#video-container #play {
+    padding: 2vw 1.5vw;
+    background-color: black;
+    color: white;
+    font-size: 1vw;
+    position: fixed;
+    text-transform: uppercase;
+    font-family: futura;
+    border-radius: 80%;
+    opacity:100%;
+    scale: 0;
+}
+
+.page3 {
+    min-height: 100%;
+    width: 100%;
+    
+    margin-top: 10px;
+}
+#text1 {
+    font-size: 25px;
+    
+    text-align: center;
+}
+#text2 {
+    font-size: 10vh;
+    text-transform: uppercase;
+    font-family: futura;
+   
+    text-align: center;
+    
+}
+#text3 {
+    font-size: 23px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+#shop {
+    height: 32px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    margin-left: 46%;
+    margin-top: 20px;
+    border-radius: 80px;
+}
+#shop a{
+    margin-top: 100px;
+    font-size: 120%;
+    color: white;
+    padding-top: 10%;
+    text-decoration: none;
+    align-items: center;
+    position: relative;
+    margin-top: 10%;
+}
+.page4 {
+    padding: 3vw;
+    height: 100%;
+    width: 100%;
+    
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+.elem{
+    height: 80vh;
+    width: 30%;
+    position: relative;
+    
+}
+
+.elemm{
+    margin-top: 50px;
+    height:80vh;
+    width: 30%;
+    
+    position: relative;
+}
+.elem img{
+    height: 90%;
+    width: 100%;
+}
+.elemm img{
+    height: 90%;
+    width: 100%;
+}
+.elem a{
+    
+    margin: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    justify-content: center;
+    margin-left: 30%;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.elem p{
+    margin: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(176, 169, 169);
+    justify-content: center;
+    
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.elemm a{
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    justify-content: center;
+    margin-left: 32%;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.elemm p{
+    margin: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(176, 169, 169);
+    justify-content: center;
+    
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.feauture {
+    margin-left: 5%;
+    margin-top: 50px;
+    position: relative;
+    
+}
+.feauture h1{   
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    color: black;
+}
+.page5 {
+    margin-top: 10px;
+    min-height: 100vh;
+    width:100%;
+    
+    position: relative;
+
+}
+.child {
+    margin-top: 20px;
+    height: 100vh;
+    width:100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.child img{
+    height: 90%;
+    width: 100%;
+
+}
+#child1{
+    
+    width:30%;
+    position: relative;
+    
+}
+#child2{
+    
+    width:30%;
+    position: relative;
+    
+}
+#child3{
+    
+    width:30%;
+    position: relative;
+    
+}
+.page6 {
+    margin-top: 150px;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #000000;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.anim{
+    cursor: pointer;
+    width: 100%;
+    position: relative;
+}
+.anim h1{
+    font-family:Freight Big Pro Medium;
+    font-size: 18vh;
+    text-transform: uppercase;
+    font-weight: 100;
+    position: relative;
+    z-index: 9;
+    line-height: 6vw;
+    border: 10px black;
+}
+.anim .moving{
+    opacity: 0;
+    background-color: #CECECE;
+    width: 100%;
+    white-space: nowrap ;
+    padding: 2px 0;
+    position: absolute;
+    top: 50%;
+    transform: translate(0,-50%)  ;
+    transition: all ease 0.5s;
+    transition: all ease-out 0.5s;
+    
+    
+    
+}
+.anim .moving #moving-in{
+    text-align: center;
+    padding-top: 6px;
+    display: inline-block;
+    white-space: nowrap ;
+    animation-name: moving;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+    
+.anim #moving-in a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color: black;
+    display:inline-block;
+    font-size: 16px;
+    margin-right: 30px;
+
+}
+.anim:hover .moving{
+    opacity: 1;
+}
+@keyframes moving{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+.anim:hover h1{
+    color: black;
+    font-style: italic;
+}
+.gal {
+    margin-left: 5%;
+    margin-top: 50px;
+    position: relative;
+    
+}
+.gal h1{   
+    
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    color: black;
+}
+.page7 {
+    margin-top: -80px;
+}
+.line{
+    
+    min-height: 100vh;
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+    
+    justify-content: center;
+    
+}
+#line1{
+    min-height: 100vh;
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    
+    flex-wrap:wrap;
+    margin: 20px;
+    
+    
+}
+#line2{
+    min-height: 100vh;
+    width: 100%;
+    
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+#line3{
+    min-height: 100vh;
+    margin: 20px;
+    width: 100%;
+   
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    
+}
+.img1{
+    
+    height: 500px;
+    width: 100%;
+    background-color: aqua;
+}
+.img1 img{
+    height: 100%;
+    width: 100%;
+}
+
+.img2{
+    margin-top: 20px;
+    height: 300px;
+    width: 100%;
+    background-color: goldenrod;
+}
+.img2 img{
+    height: 100%;
+    width: 100%;
+}
+
+.img3{
+    margin-top: 20px;
+    height: 700px;
+    width: 100%;
+    background-color: rgb(24, 154, 111);
+}
+.img3 img{
+    height: 100%;
+    width: 100%;
+}
+.i1{
+    
+    height: 400px;
+    width: 100%;
+    background-color: aqua;
+}
+.i1 img{
+    height: 100%;
+    width: 100%;
+}
+.i2{
+    margin-top: 20px;
+    height: 600px;
+    width: 100%;
+    background-color: goldenrod;
+}
+.i2 img{
+    height: 100%;
+    width: 100%;
+}
+.i3{
+    margin-top: 20px;
+    height: 500px;
+    width:100%;
+    background-color: rgb(24, 154, 111);
+}
+.i3 img{
+    height: 100%;
+    width: 100%;
+}
+.m1{
+    
+    
+    height: 700px;
+    width: 100%;
+    background-color: aqua;
+}
+.m1 img{
+    height: 100%;
+    width: 100%;
+    border: 0.5px solid white;
+}
+.m2{
+    margin-top: 20px;
+    height: 400px;
+    width: 100%;
+    background-color: goldenrod;
+    border: 1px solid black;
+}
+.m2 img{
+    height: 100%;
+    width: 100%;
+
+}
+.m3{
+    margin-top: 20px;
+    height: 400px;
+    width: 100%;
+    background-color: rgb(24, 154, 111);
+}
+.m3 img{
+    height: 100%;
+    width: 100%;
+}
+
+.page8 {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+.container {
+    position: relative;
+        width: 400px;
+        height: 400px;
+        background-color: #ffffff;
+        border-radius: 10px;
+        overflow: hidden;
+}
+
+.circle {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #ff0000;
+    border-radius: 50%;
+    pointer-events: none;
+    opacity: 1;
+    transition: opacity 0.3s ease; /* Added smooth transition */
+}
+
+
+.show {
+    opacity: 1;
+}
