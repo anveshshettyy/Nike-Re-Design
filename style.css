@@ -59,9 +59,10 @@ html,body {
     letter-spacing: -15px;
 }
 #video-container {
+    padding: 20px;
     height: 100vh;
     width: 100%;
-    background-color: grey;
+    
     margin-top: 1vw;
     position:relative; 
 }
